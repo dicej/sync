@@ -1,0 +1,38 @@
+{
+  "name": "sync",
+  "version": "0.0.1",
+  "description": "Low-latency synchronization of data on unreliable networks",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dicej/sync.git"
+  },
+  "author": "Joel Dice <joel.dice@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dicej/sync/issues"
+  },
+  "homepage": "https://github.com/dicej/sync#readme",
+  "scripts": {
+    "prepublish": "gulp",
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "3.5.0",
+    "gulp": "3.9.1",
+    "gulp-mocha": "2.2.0",
+    "gulp-shell": "0.5.2",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-typescript": "2.12.1",
+    "gulp-typings": "1.3.0",
+    "gulp-util": "3.0.7",
+    "mocha": "2.4.5",
+    "mocha-testcheck": "0.1.2",
+    "source-map-support": "0.4.0",
+    "testcheck": "0.1.4",
+    "typings": "0.7.12",
+    "watchify": "3.7.0"
+  }
+}
